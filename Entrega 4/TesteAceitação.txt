@@ -1,0 +1,25 @@
+Funcionalidade: Navegação na página HOME
+
+Contexto:
+  Dado um usuário qualquer com acesso ao site
+  E possui o perfil "visitante"
+
+Cenário: Usuário busca transferir-se para a página DOAÇÕES
+  Dado que eu esteja na seção que contém o texto sobre doações 
+  Quando eu tenha clicado na palavra linkada "DOAÇÕES" 
+  Então eu devo me redirecionar para a página própria de doações
+
+Cenário: Usuário busca acessar o perfil da instituição nas redes sociais
+  Dado que eu esteja na seção de divulgação de redes sociais
+  Quando eu tenha clicado na palavra linkada "Messenger", "Facebook", "Instagram" ou "WhatsApp"
+  Então eu devo ser redirecionado para o respectivo perfil da rede social selecionada
+
+Cenário: Usuário busca consultar as imagens dos acontecimentos internos e infraestura do asilo
+  Dado que eu esteja na seção sobre informações da instituição
+  Quando eu tenha clicado na palavra linkada "GALERIA"
+  Então eu devo me redirecionar para a página própria da galeria
+
+Cenário: Usuário busca consultar quais foram as postagens que já foram feitas 
+  Dado que eu esteja na seção sobre informações da instituição
+  Quando eu tenha clicado na palavra linkada "POSTAGENS"
+  Então eu devo me redirecionar para a página própria de postagens que lista o conteúdo enviado
